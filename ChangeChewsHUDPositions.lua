@@ -1,6 +1,6 @@
 ------------------------------------------------------------------------------------
 -- T7HUD_ZM_FACTORY [ D3V REWRITE ] (uses HudRef instead of self)
--- Put undernath this line: HudRef.Ammo = AmmoWidget
+-- Put underneath this line: HudRef.Ammo = AmmoWidget
 
     local IWChangeChewsAATDisplay = CoD.ChangeChewsAATWidget.new(self, controller)
     IWChangeChewsAATDisplay:setLeftRight( false, true, -250, -200 )
@@ -14,7 +14,7 @@
 
 ------------------------------------------------------------------------------------
 -- T7HUD_ZM_FACTORY [ KYLE'S REWRITE ] (uses self instead of HudRef)
--- Put undernath this line:	self:addElement( self.Ammo )
+-- Put underneath this line:	self:addElement( self.Ammo )
 
     self.IWChangeChewsAATDisplay = CoD.ChangeChewsAATWidget.new(self, controller)
     self.IWChangeChewsAATDisplay:setLeftRight( false, true, 0, -200 )
@@ -27,7 +27,7 @@
 
 ------------------------------------------------------------------------------------
 -- KYLES IW HUD
--- Put undernath this line:	self:addElement( self.Ammo )
+-- Put underneath this line:	self:addElement( self.Ammo )
 
     self.IWChangeChewsAATDisplay = CoD.ChangeChewsAATWidget.new(self, controller)
     self.IWChangeChewsAATDisplay:setLeftRight( false, true, 0, -215 )
@@ -40,7 +40,7 @@
 
 ------------------------------------------------------------------------------------
 -- KYLES CS:GO HUD
--- Put undernath this line:	self:addElement( self.Ammo )
+-- Put underneath this line:	self:addElement( self.Ammo )
 
     self.IWChangeChewsAATDisplay = CoD.ChangeChewsAATWidget.new(self, controller)
     self.IWChangeChewsAATDisplay:setLeftRight( false, true, 0, -75 )
@@ -53,7 +53,7 @@
 
 ------------------------------------------------------------------------------------
 -- KYLES WW2 HUD
--- Put undernath this line:	self:addElement( self.Ammo )
+-- Put underneath this line:	self:addElement( self.Ammo )
 
     self.IWChangeChewsAATDisplay = CoD.ChangeChewsAATWidget.new(self, controller)
     self.IWChangeChewsAATDisplay:setLeftRight( false, true, 0, -150 )
@@ -66,7 +66,7 @@
 
 ------------------------------------------------------------------------------------
 -- KYLES BO4 HUD
--- Put undernath this line:	self:addElement( self.Ammo )
+-- Put underneath this line:	self:addElement( self.Ammo )
 
     self.IWChangeChewsAATDisplay = CoD.ChangeChewsAATWidget.new(self, controller)
     self.IWChangeChewsAATDisplay:setLeftRight( false, true, 100, -65 )
@@ -79,7 +79,7 @@
 
 ------------------------------------------------------------------------------------
 -- MADGAZ HUD [DEVRAW VERSION]
--- Put undernath this line: HudRef.Ammo = AmmoWidget
+-- Put underneath this line: HudRef.Ammo = AmmoWidget
 
     local IWChangeChewsAATDisplay = CoD.ChangeChewsAATWidget.new(self, controller)
     IWChangeChewsAATDisplay:setLeftRight( false, true, 0, -88 )
